@@ -28,4 +28,10 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain('angular-unit-tests app is running!');
   });
+// 
+//   it('simple test', () => {
+//     const a = 2;
+//     const b = 3;
+//     expect(a + b).toBe(6)
+//   })
 });
